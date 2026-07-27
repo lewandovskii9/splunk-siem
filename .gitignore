@@ -1,23 +1,68 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# Executables & Malware Samples
+*.exe
+*.dll
+*.sys
+*.drv
+*.bin
+*.elf
+*.so
+*.dylib
+*.msi
+*.scr
+*.vir
+*.malware
+*.sample
+*.vbs
+
+# Memory Dumps & Disk Forensics
+*.raw
+*.dd
+*.vmem
+*.dmp
+*.mem
+*.E01
+*.E02
+*.aff
+*.vhd
+*.vmdk
+*.ova
+*.ovf
+*.qcow2
+
+# Network Captures
+*.pcap
+*.pcapng
+*.cap
+
+# Reverse Engineering & Analysis Tools
+*.rep/
+*.idb
+*.i64
+*.nam
+*.til
+*.id0
+*.id1
+*.id2
+*.dd32
+*.dd64
+
+# Logs & Local Databases
+*.log
+*.sqlite
+*.db
+
+# Secrets & Environment Files
+.env
+*.pem
+*.key
+secrets.json
+config.local.json
+
+# OS & Editor Junk
+.DS_Store
+Thumbs.db
+desktop.ini
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+.idea/
+*.swp
+*.tmp

@@ -28,7 +28,7 @@ This repository is organized into core functional modules covering query develop
 
 | Module | Description | Key Deliverables |
 | :--- | :--- | :--- |
-| **[BOTS v1 APT Investigation](./bots-v1/)** | Full APT lifecycle analysis, attack timeline reconstruction, and IOC extraction | `apt-investigation-report.md`, `attack-timeline.md`, `ioc-list.md` |
+| **[BOTS v1 APT Investigation](./bots-v1/apt-investigation-report.md)** | Full APT lifecycle analysis, attack timeline reconstruction, and IOC extraction | `apt-investigation-report.md`, `attack-timeline.md`, `ioc-list.md` |
 
 ---
 

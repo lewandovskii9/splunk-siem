@@ -16,8 +16,18 @@ This repository contains a structured collection of SPL commands, detection rule
 
 - SIEM Content Standardization: Developing and mapping detection rules using the Sigma standard.
 
-## 🔧 Tools & TechniquesSplunk 
-- Enterprise / Splunk SPL (search, stats, timechart, eval, rex)
+## 🔧 Tools & Techniques
+- Splunk Enterprise / Splunk SPL (search, stats, timechart, eval, rex)
+
 - BOTS v1 (Boss of the SOC) dataset analysis
+  
 - Sigma Rules (cross-platform detection format)
+  
 - MITRE ATT&CK Framework mappingSPL Cheatsheet & Syntax Guide
+
+
+## 📁 Investigation Cases & Modules
+
+This repository is organized into core functional modules covering query development, threat hunting, and full incident reporting.
+
+

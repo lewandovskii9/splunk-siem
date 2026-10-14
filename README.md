@@ -2,7 +2,7 @@
 
 Focused on Splunk SPL, correlation queries, and advanced incident investigation.
 
-This repository contains a structured collection of SPL commands, detection rules, and a full APT analysis based on BOTS v1. It demonstrates deep log analysis, correlation techniques, and a professional SOC-style approach to threat hunting and detection engineering.
+This repository contains a full APT analysis based on BOTS v1. It demonstrates deep log analysis, correlation techniques, and a professional SOC-style approach to threat hunting and detection engineering.
 
 ---
 

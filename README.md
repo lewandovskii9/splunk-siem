@@ -9,13 +9,9 @@ This repository contains a full APT analysis based on BOTS v1. It demonstrates d
 ## 🛠 Technical Stack
 - SPL Queries: Crafting basic to advanced correlation searches, data transformations, and aggregations.
 
-- Detection Engineering: Building and tuning high-fidelity detection rules aligned with MITRE ATT&CK.
-
 - APT Investigation: Performing end-to-end incident analysis using complex multi-stage datasets (BOTS v1).
 
 - Threat Intelligence: Extracting, enriching, and documenting Indicators of Compromise (IOCs).
-
-- SIEM Content Standardization: Developing and mapping detection rules using the Sigma standard.
 
 ---
 

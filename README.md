@@ -23,10 +23,6 @@ This repository contains a full APT analysis based on BOTS v1. It demonstrates d
 - Splunk Enterprise / Splunk SPL (search, stats, timechart, eval, rex)
 
 - BOTS v1 (Boss of the SOC) dataset analysis
-  
-- Sigma Rules (cross-platform detection format)
-  
-- MITRE ATT&CK Framework mappingSPL Cheatsheet & Syntax Guide
 
 ---
 
@@ -34,23 +30,10 @@ This repository contains a full APT analysis based on BOTS v1. It demonstrates d
 
 This repository is organized into core functional modules covering query development, threat hunting, and full incident reporting.
 
-| Module / Case | Description & Focus | Key Deliverables |
+| Module | Description | Key Deliverables |
 | :--- | :--- | :--- |
 | **[SPL Queries](./spl-queries/)** | Core command syntax, aggregations, time filters, and detection queries | `spl-cheatsheet.md`, `detection-queries.md` |
 | **[BOTS v1 APT Investigation](./bots-v1/)** | Full APT lifecycle analysis, attack timeline reconstruction, and IOC extraction | `apt-investigation-report.md`, `attack-timeline.md`, `ioc-list.md` |
-| **[Sigma Rules](./sigma-rules/)** | Industry-standard generic detection rules mapped to BOTS v1 scenarios | Brute-force, lateral movement, encoded PowerShell rules (`.yml`) |
-
----
-
-## 🔍 What Each Section Includes
-
-- **SPL Queries:** Syntax breakdowns, real-world examples from BOTS v1, screenshots, and custom detection queries with false-positive analysis.
-  
-- **BOTS v1 Investigation:** Executive summaries, initial access vectors, execution, persistence, lateral movement, exfiltration stages, and corresponding SPL validation.
-  
-- **Attack Timeline & IOCs:** Chronological event mapping with MITRE techniques and structured lists of IPs, domains, hashes, and severities.
-  
-- **Sigma Rules:** Conversion logic to Splunk SPL and production-ready YAML rules covering brute-forcing, new admin creation, scheduled tasks, and obfuscated execution.
 
 ---
 

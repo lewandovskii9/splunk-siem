@@ -4,6 +4,7 @@ Focused on Splunk SPL, correlation queries, and advanced incident investigation.
 
 This repository contains a structured collection of SPL commands, detection rules, and a full APT analysis based on BOTS v1. It demonstrates deep log analysis, correlation techniques, and a professional SOC-style approach to threat hunting and detection engineering.
 
+---
 
 ## 🛠 Technical Stack
 - SPL Queries: Crafting basic to advanced correlation searches, data transformations, and aggregations.
@@ -16,6 +17,8 @@ This repository contains a structured collection of SPL commands, detection rule
 
 - SIEM Content Standardization: Developing and mapping detection rules using the Sigma standard.
 
+---
+
 ## 🔧 Tools & Techniques
 - Splunk Enterprise / Splunk SPL (search, stats, timechart, eval, rex)
 
@@ -25,9 +28,53 @@ This repository contains a structured collection of SPL commands, detection rule
   
 - MITRE ATT&CK Framework mappingSPL Cheatsheet & Syntax Guide
 
+---
 
 ## 📁 Investigation Cases & Modules
 
 This repository is organized into core functional modules covering query development, threat hunting, and full incident reporting.
 
+| Module / Case | Description & Focus | Key Deliverables |
+| :--- | :--- | :--- |
+| **[SPL Queries](./spl-queries/)** | Core command syntax, aggregations, time filters, and detection queries | `spl-cheatsheet.md`, `detection-queries.md` |
+| **[BOTS v1 APT Investigation](./bots-v1/)** | Full APT lifecycle analysis, attack timeline reconstruction, and IOC extraction | `apt-investigation-report.md`, `attack-timeline.md`, `ioc-list.md` |
+| **[Sigma Rules](./sigma-rules/)** | Industry-standard generic detection rules mapped to BOTS v1 scenarios | Brute-force, lateral movement, encoded PowerShell rules (`.yml`) |
 
+---
+
+## 🔍 What Each Section Includes
+
+- **SPL Queries:** Syntax breakdowns, real-world examples from BOTS v1, screenshots, and custom detection queries with false-positive analysis.
+  
+- **BOTS v1 Investigation:** Executive summaries, initial access vectors, execution, persistence, lateral movement, exfiltration stages, and corresponding SPL validation.
+  
+- **Attack Timeline & IOCs:** Chronological event mapping with MITRE techniques and structured lists of IPs, domains, hashes, and severities.
+  
+- **Sigma Rules:** Conversion logic to Splunk SPL and production-ready YAML rules covering brute-forcing, new admin creation, scheduled tasks, and obfuscated execution.
+
+---
+
+## 🚩 Objectives
+
+- Mastering Splunk SPL from basic filtering to complex correlation searches.
+  
+- Deconstructing advanced multi-stage APT attacks through hands-on hunting.
+
+- Building scalable, portable detection content using Sigma rules.
+
+---
+## Future objectives
+- BOTS v2 (Boss of the SOC) dataset analysis
+  
+- Sigma Rules (cross-platform detection format)
+
+- MITRE ATT&CK Framework mappingSPL Cheatsheet & Syntax Guide
+
+---
+
+## ⚠️ Disclaimer
+
+All datasets and investigation scenarios are sourced from publicly available security platforms (such as Splunk BOTS) and are used strictly for educational and defensive training purposes.
+
+---
+[![Back to Profile](https://img.shields.io/badge/BACK_TO_PROFILE-333333?style=plastic&logo=github&logoColor=white)](https://github.com/lewandovskii9)
